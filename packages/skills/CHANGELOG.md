@@ -1,5 +1,113 @@
 # @agent-native/skills
 
+## 0.2.22
+
+### Patch Changes
+
+- Updated dependencies [2c3fcb9]
+- Updated dependencies [2c3fcb9]
+  - @agent-native/core@0.58.2
+
+## 0.2.21
+
+### Patch Changes
+
+- Updated dependencies [a2992cb]
+  - @agent-native/core@0.58.1
+
+## 0.2.20
+
+### Patch Changes
+
+- Updated dependencies [9e20092]
+- Updated dependencies [9e20092]
+  - @agent-native/core@0.58.0
+
+## 0.2.19
+
+### Patch Changes
+
+- Updated dependencies [3446e34]
+- Updated dependencies [3446e34]
+- Updated dependencies [3446e34]
+- Updated dependencies [3446e34]
+- Updated dependencies [3446e34]
+  - @agent-native/core@0.57.0
+
+## 0.2.18
+
+### Patch Changes
+
+- Updated dependencies [e3e8515]
+  - @agent-native/core@0.56.1
+
+## 0.2.17
+
+### Patch Changes
+
+- Updated dependencies [78687a1]
+- Updated dependencies [78687a1]
+- Updated dependencies [78687a1]
+- Updated dependencies [78687a1]
+- Updated dependencies [78687a1]
+  - @agent-native/core@0.56.0
+
+## 0.2.16
+
+### Patch Changes
+
+- 364e4be: Expose the updated framework skill bundle through the skills package entrypoint.
+- Updated dependencies [364e4be]
+- Updated dependencies [364e4be]
+- Updated dependencies [364e4be]
+- Updated dependencies [364e4be]
+- Updated dependencies [364e4be]
+- Updated dependencies [364e4be]
+  - @agent-native/core@0.55.0
+
+## 0.2.15
+
+### Patch Changes
+
+- Updated dependencies [cc1e11c]
+  - @agent-native/core@0.54.1
+
+## 0.2.14
+
+### Patch Changes
+
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [9909dcc]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+- Updated dependencies [f81e032]
+  - @agent-native/core@0.54.0
+
+## 0.2.13
+
+### Patch Changes
+
+- 5a57b60: Fix hosted skills install flows for Codex plus Claude Cowork client selections and make MCP connect polling handle structured device-code failures consistently.
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+- Updated dependencies [5a57b60]
+  - @agent-native/core@0.53.0
+
 ## 0.2.12
 
 ### Patch Changes
