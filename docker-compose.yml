@@ -1,0 +1,22 @@
+services:
+  agent-native:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        APP_NAME: ${APP_NAME:-starter}
+    restart: unless-stopped
+    environment:
+      APP_NAME: ${APP_NAME:-starter}
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: ${PORT:-3000}
+      DATABASE_URL: ${DATABASE_URL:?Set DATABASE_URL to your Turso libsql URL}
+      DATABASE_AUTH_TOKEN: ${DATABASE_AUTH_TOKEN:?Set DATABASE_AUTH_TOKEN to your Turso auth token}
+      BETTER_AUTH_SECRET: ${BETTER_AUTH_SECRET:?Set BETTER_AUTH_SECRET for production sessions}
+      APP_URL: ${APP_URL:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      ACCESS_TOKEN: ${ACCESS_TOKEN:-}
+      ACCESS_TOKENS: ${ACCESS_TOKENS:-}
+    ports:
+      - "${PORT:-3000}:3000"
