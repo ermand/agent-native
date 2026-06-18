@@ -93,13 +93,13 @@ Templates read from `.env` in their own directory. Key variables:
 
 Set `DATABASE_URL` to connect to your database. When unset, defaults to a local SQLite file at `data/app.db`.
 
-| Provider         | Example `DATABASE_URL`                                     |
-| ---------------- | ---------------------------------------------------------- |
-| SQLite (default) | _(unset, or `file:./data/app.db`)_                         |
-| Neon Postgres    | `postgresql://user:pass@ep-xxx.us-east-2.aws.neon.tech/db` |
-| Supabase         | `postgresql://user:pass@db.xxx.supabase.co:5432/postgres`  |
-| Turso (libSQL)   | `libsql://your-db.turso.io?authToken=...`                  |
-| Plain Postgres   | `postgresql://user:pass@localhost:5432/mydb`               |
+| Provider         | Example `DATABASE_URL`                                      |
+| ---------------- | ----------------------------------------------------------- |
+| SQLite (default) | _(unset, or `file:./data/app.db`)_                          |
+| Neon Postgres    | `postgresql://user:pass@ep-xxx.us-east-2.aws.neon.tech/db`  |
+| Supabase         | `postgresql://user:pass@db.xxx.supabase.co:5432/postgres`   |
+| Turso (libSQL)   | `libsql://your-db.turso.io` plus `DATABASE_AUTH_TOKEN`      |
+| Plain Postgres   | `postgresql://user:pass@localhost:5432/mydb`                |
 
 All SQL must be dialect-agnostic -- never assume SQLite.
 
